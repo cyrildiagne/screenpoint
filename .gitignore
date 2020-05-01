@@ -4,3 +4,4 @@ __pycache__
 .DS_Store
 MANIFEST
 dist
+screenpoint.egg-info

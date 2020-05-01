@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 # read the contents of your README file
 from os import path
@@ -13,7 +13,7 @@ setup(
     license='MIT',
     description='Project an image centroid to another image using OpenCV',
     long_description=long_description,
-    long_description_content_type='text/markdown'
+    long_description_content_type='text/markdown',
     author='Cyril Diagne',
     author_email='diagne.cyril@gmail.com',
     url='https://github.com/cyrildiagne/screenpoint',

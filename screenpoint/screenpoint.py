@@ -8,7 +8,7 @@ FLANN_INDEX_KDTREE = 0
 sift = cv2.xfeatures2d.SIFT_create()
 
 
-def project(view, screen, debug):
+def project(view, screen, debug=False):
     kp_screen, des_screen = sift.detectAndCompute(screen, None)
     kp_view, des_view = sift.detectAndCompute(view, None)
 

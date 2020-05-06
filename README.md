@@ -6,6 +6,8 @@ Finds the (x,y) coordinates of the centroid of an image (eg: a mobile phone came
 
 ## Installation
 
+This library only supports Python 3.6 or Python 3.7. That until SIFT becomes available again in opencv-python-contrib.
+
 ```bash
 pip install screenpoint
 ```

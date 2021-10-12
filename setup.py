@@ -21,7 +21,7 @@ setup(
     'https://github.com/cyrildiagne/screenpoint/archive/v0.1.0.tar.gz',
     keywords=['opencv', 'sift', 'projection'],
     install_requires=[
-        'opencv-contrib-python==3.4.2.17',
+        'opencv-contrib-python==4.2.0.32',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
